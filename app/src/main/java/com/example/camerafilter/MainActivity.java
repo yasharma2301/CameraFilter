@@ -4,9 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Environment;
 import android.view.View;
 import android.widget.Button;
 
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Objects;
 
 public class MainActivity extends AppCompatActivity {
@@ -29,20 +34,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(MainActivity.this,Activity2.class);
         startActivity(intent);
     }
+
+
 }
 
-
-// toast messages
-
-
-// Camera app
-
-// 1 button click image
-// 1 button to save the image in file manager
-// image view
-
-// open camera
-
-// toGreyScale()
-
-// save image
